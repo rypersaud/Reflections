@@ -1,1 +1,5 @@
 Lesson 3 reflection
+
+git push <remote name> <branch name> = copy repository to github
+git pull <remote name> <branch name> = copy from github
+git remote add origin <github https link> = create remote to push and pull from github
