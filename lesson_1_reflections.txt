@@ -1,0 +1,25 @@
+use "diff" in command line to compare two files
+	diff -u file1 file2
+cd 	#change directory
+pwd	#print working directory
+ls	#list files
+subl	#open sublime - text editor
+
+git diff = Compare two commits, printing each line that is present in one commit but not the other.
+	git diff original new
+git clone = Make a copy of an entire Git repository, including the history, onto your own computer
+git checkout = Temporarily reset all files in a directory to their state at the time of a specific commit.
+git log = Show the commits made in this repository, starting with the most recent.
+
+git init = create git repository
+git add = add files to staging area to be included in latest commit
+git status = status of git repository 
+git commit = create commit from files in staging area - enter description of commit
+
+git diff —-staged = changes between latest commit and staging area 
+git rest —-hard = discard any changes in the staging area and working area
+
+git branch = without argument shows list of branches, include argument to name a new branch
+
+git show = show changes in commit compared to the parent 
+git branch -d “name” = deletes the name of the branch
